@@ -1,0 +1,138 @@
+﻿body {
+
+    /*font-family:poping;*/
+}
+#TopMenu {
+   
+}
+
+div{
+    border:0px solid grey;
+}
+.child{
+  
+}
+.mainDiv{
+    width:100%;
+    display:flex;
+    padding-bottom:50px;
+
+}
+#icon {
+    width: 45px;
+    border-radius: 45px;
+    margin: 20px 40px;
+}
+footer {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+}
+#logo1 {
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+#logo2 {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    left: 110px;
+    border: 1px solid rgb(80,192,254);
+}
+#bio {
+    flex: 2;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+#MyHobbiesSection {
+    background-color: rgb(245,245,244);
+}
+#resume {
+    position: relative;
+    display: block;
+    background-color: rgb(80,192,254);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    top: 250px;
+    left: -200px;
+    color:white;
+    font-size:xx-large;
+}
+#MyHobbiesHeading {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(245,245,244);
+    margin: 30px 0px;
+    padding-top:20px;
+    padding-bottom:0px;
+}
+#myHobbies {
+    display: flex;
+    background-color: rgb(245,245,244);
+    margin:0px 50px 30px 50px;
+}
+.Hobbies {
+    flex: 1;
+    margin: 0px 20px 20px 20px;
+}
+.HobbiesImg{
+
+    background-color:rgb(196,196,196);
+    border-radius:20px;
+    width:100%;
+
+}
+#mySkills{
+    width:100%;
+    display:grid;
+    grid-template-rows:50% 50%;
+    grid-template-columns:50% 50%;
+}
+    #mySkills div{
+       
+    }
+    @media only screen and (max-width: 600px) {
+        #logo1 {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        position: relative;
+        top: 5px;
+        left: 10px;
+    }
+
+    #logo2 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+        top: 5px;
+        left: -40px;
+    }
+}
+/*---------------------*/
+a {
+    text-decoration: none;
+    margin: 30px 5%;
+    float: right;
+    color: black;
+}
+
+    a:hover {
+        color: grey;
+    }
+
+
